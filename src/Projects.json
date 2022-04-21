@@ -1,0 +1,40 @@
+{
+    "projects":
+    [
+        {
+            "id": 1,
+            "image": "",
+            "imageAlt": "Midterm Portfolio",
+            "deployLink": "https://santosisaac13690.github.io/Midterm-Portfolio/",
+            "repoLink": "https://github.com/Santosisaac13690/Midterm-Portfolio",
+            "name": "Midterm Portfolio"
+        },
+
+        {
+            "id": 2,
+            "image": "",
+            "imageAlt": "Ecommerce - STAY QUIET",
+            "deployLink": "https://isaac-stayquiet.herokuapp.com/",
+            "repoLink": "https://github.com/Santosisaac13690/ecommerce-react",
+            "name": "Ecommerce - STAY QUIET"
+        },
+
+        {
+            "id": 3,
+            "image": "",
+            "imageAlt": "Code 4 Justice",
+            "deployLink": "https://samueljr3.github.io/code4Justice/",
+            "repoLink": "https://github.com/samueljr3/code4Justice",
+            "name": "Code 4 Justice"
+        },
+
+        {
+            "id": 4,
+            "image": "",
+            "imageAlt": "Netflix Redesign",
+            "deployLink": "https://r2h-netflix.herokuapp.com/",
+            "repoLink": "https://github.com/Santosisaac13690/netflix-redesign",
+            "name": "Netflix Redesign"
+        }
+    ]
+}
