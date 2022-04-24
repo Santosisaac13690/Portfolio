@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
   faCode,
 } from '@fortawesome/free-solid-svg-icons';
-import Headshot from '../assets/Headshot.png';
+import Headshot from '../assets/Headshot.png'
 
 function Home() {
   return (

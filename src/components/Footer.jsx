@@ -12,7 +12,7 @@ import {
 
 function Footer() {
   return (
-    <div>
+    <section>
         <footer>
             <ul>
               <li><a href="https://www.instagram.com/santos_j_isaac/" target="_blank" rel="noreferrer" aria-label="instagram"><FontAwesomeIcon icon={faInstagramSquare} /></a></li>
@@ -27,7 +27,7 @@ function Footer() {
             </ul>
             <p className="copyright">Copyright &copy; 2022, Isaac Santos</p>
         </footer>
-    </div>
+    </section>
   )
 }
 

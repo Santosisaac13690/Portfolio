@@ -27,10 +27,10 @@ export default class Nav extends Component {
         var navmenu = this.state.navcontainer;
         
         return (
-            <div>
+            <section>
                 <nav>
                     <div className='closed-nav'>
-                        <h3>ISAAC SANTOS</h3>
+                        <Link to='/' className='name'><h3>ISAAC SANTOS</h3></Link>
                         <a aria-label="open-nav" onClick={Handlechange}><FontAwesomeIcon icon={faBars} /></a>
                     </div>
 
@@ -43,7 +43,7 @@ export default class Nav extends Component {
                                 </div>
 
                                 <ul>
-                                    <li><Link to="/" className="hover">HOME</Link></li>
+                                    <li><Link to="/" className="hover">ABOUT</Link></li>
                                     <li><Link to="/projects" className="hover">PROJECTS</Link></li>
                                     <li><Link to="/contact" className="hover">CONTACT</Link></li>
                                     <li><a href={Resume} target="_blank" rel="noreferrer" className="hover">RESUME</a></li>
@@ -68,7 +68,7 @@ export default class Nav extends Component {
                     )}
 
                 </nav>
-            </div>
+            </section>
         )
     }
 }

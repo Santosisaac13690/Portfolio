@@ -92,6 +92,10 @@ footer ul li a:hover {
   cursor: pointer;
 }
 
+.name {
+  text-decoration: none;
+}
+
 .nav-open {
   background-color: rgba(0, 0, 0, 0.92);
   width: 100vw;
@@ -309,6 +313,121 @@ label {
 }
 
 
+/*----- PROJECTS STYLES -----*/
+
+.project-ctn {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.project-ctn a {
+  text-decoration: none;
+}
+
+.project img{
+  width: 30vw;
+  height: 16.5vw;
+  filter: grayscale(90%);
+}
+
+.project:hover img {
+  transition: 0.5s;
+  filter: none;
+}
+
+.project h2 {
+  text-align: center;
+  margin: 15px;
+  font-weight: 500;
+  color: #473c38;
+  font-weight: bolder;
+}
+
+.project p {
+  text-align: center;
+  margin: 15px;
+  font-weight: 500;
+  color: #473c38;
+  font-weight: bolder;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px;
+  background-color: #f2f2f2;
+  width: 30vw;
+}
+
+.project:hover {
+  cursor: pointer;
+  transition: 1s;
+}
+
+
+/*----- SHOW PROJECTS STYLES -----*/
+
+.show-project-ctn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  height: auto;
+}
+
+.show-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  color: #473c38;
+  margin: 10px;
+}
+
+.show-project img{
+  width: 80vw;
+}
+
+.show-project h2 {
+  padding: 20px;
+  font-size: 30px;
+}
+
+.show-project a {
+  color: #fff;
+  background-color: olivedrab;
+  width: 110px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  font-size: 18px;
+  margin: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.site-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-project a:hover {
+  opacity: 50%;
+  background-color: darkslategray;
+}
+
+
 /*----- MEDIA QUERY STYLES -----*/
 
 @media only screen and (max-width: 840px) {
@@ -358,5 +477,16 @@ label {
     display: grid;
     grid-template-columns:80px 80px 80px 80px;
     grid-template-rows: 100px 100px 100px 100px 100px 100px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .project {
+    width: 280px;
+  }
+
+  .project img {
+    width: 280px;
+    height: 160px;
   }
 }

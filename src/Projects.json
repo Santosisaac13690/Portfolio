@@ -3,38 +3,74 @@
     [
         {
             "id": 1,
-            "image": "",
-            "imageAlt": "Midterm Portfolio",
-            "deployLink": "https://santosisaac13690.github.io/Midterm-Portfolio/",
-            "repoLink": "https://github.com/Santosisaac13690/Midterm-Portfolio",
-            "name": "Midterm Portfolio"
+            "image": "./images/FreedomPark.png",
+            "imageAlt": "Freedom Park",
+            "deployLink": "https://santosisaac13690.github.io/Freedom-Park-Website/",
+            "repoLink": "https://github.com/Santosisaac13690/Freedom-Park-Website",
+            "name": "Freedom Park",
+            "languages": "HTML|CSS",
+            "contributors": "By Isaac Santos",
+            "background": "This was the first website I've ever created for the R2H summer boot camp. The purpose was to display proficiency in HTML & CSS. Throughout this project learned a lot about HTML, CSS & asking for help. To this day, this is one of my favorite projects because I love looking back on it & seeing how much I've improved."
         },
 
         {
             "id": 2,
-            "image": "",
-            "imageAlt": "Ecommerce - STAY QUIET",
-            "deployLink": "https://isaac-stayquiet.herokuapp.com/",
-            "repoLink": "https://github.com/Santosisaac13690/ecommerce-react",
-            "name": "Ecommerce - STAY QUIET"
+            "image": "./images/Honduras.png",
+            "imageAlt": "Gateway",
+            "deployLink": "https://santosisaac13690.github.io/Gateway-Final-Project/",
+            "repoLink": "https://github.com/Santosisaac13690/Gateway-Final-Project",
+            "name": "Gateway",
+            "languages": "HTML|CSS",
+            "contributors": "By Isaac Santos",
+            "background": "This Honduras travel site was my project for the R2H gateway apprenticeship. The purpose of this project was to display proficiency in HTML & CSS. I felt that I was really beginning to grasp CSS & Flexbox throughout this project. I love this project because my mother is Honduran & I've always wanted to visit Honduras & by doing this project, I learned a lot about my others home country."
         },
 
         {
             "id": 3,
-            "image": "",
-            "imageAlt": "Code 4 Justice",
-            "deployLink": "https://samueljr3.github.io/code4Justice/",
-            "repoLink": "https://github.com/samueljr3/code4Justice",
-            "name": "Code 4 Justice"
+            "image": "./images/MidtermPortfolio.png",
+            "imageAlt": "Midterm Portfolio",
+            "deployLink": "https://santosisaac13690.github.io/Midterm-Portfolio/",
+            "repoLink": "https://github.com/Santosisaac13690/Midterm-Portfolio",
+            "name": "Midterm Portfolio",
+            "languages": "HTML|CSS",
+            "contributors": "By Isaac Santos",
+            "background": ""
         },
 
         {
             "id": 4,
-            "image": "",
+            "image": "./images/Ecommerce.png",
+            "imageAlt": "Ecommerce - STAY QUIET",
+            "deployLink": "https://isaac-stayquiet.herokuapp.com/",
+            "repoLink": "https://github.com/Santosisaac13690/ecommerce-react",
+            "name": "Ecommerce - STAY QUIET",
+            "languages": "HTML|CSS|React|MySQL|Node",
+            "contributors": "By Isaac Santos",
+            "background": ""
+        },
+
+        {
+            "id": 5,
+            "image": "./images/Code4Justice.png",
+            "imageAlt": "Code 4 Justice",
+            "deployLink": "https://samueljr3.github.io/code4Justice/",
+            "repoLink": "https://github.com/samueljr3/code4Justice",
+            "name": "Code 4 Justice",
+            "languages": "HTML|CSS",
+            "contributors": "Seth|Jacky|Sam|Axel|Isaac",
+            "background": ""
+        },
+
+        {
+            "id": 6,
+            "image": "./images/Netflix.png",
             "imageAlt": "Netflix Redesign",
             "deployLink": "https://r2h-netflix.herokuapp.com/",
             "repoLink": "https://github.com/Santosisaac13690/netflix-redesign",
-            "name": "Netflix Redesign"
+            "name": "Netflix Redesign",
+            "languages": "HTML|CSS|React|TMDB-API",
+            "contributors": "Van|Marty|Puran|Sam|Jacky|Isaac",
+            "background": ""
         }
     ]
 }

@@ -11,7 +11,7 @@ import {
 
 function Contact() {
   return (
-    <div>
+    <main>
       <Nav />
       <main>
         <div className="contact">
@@ -98,7 +98,7 @@ function Contact() {
         </div>
       </main>
       <Footer />
-    </div>
+    </main>
   )
 }
 
