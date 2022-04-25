@@ -419,9 +419,14 @@ label {
   border-radius: 10px 10px 0px 0px;
 }
 
+.show-project p {
+  text-align: center;
+}
+
 .show-project h2 {
   padding: 20px;
   font-size: 30px;
+  text-align: center;
 }
 
 .show-project a {
