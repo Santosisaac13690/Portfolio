@@ -13,6 +13,9 @@ import emailjs from '@emailjs/browser';
 function Contact() {
   const form = useRef();
   const [done, setDone] = useState(false);
+  let formSubmit = () => {
+    alert("Thank you for submitting a message! I'll get back to you shortly.");
+  }
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -87,7 +90,7 @@ function Contact() {
               </div>
     
               <div className="inputBox">
-                <input type="submit" name="submit" value="Send" />
+                <input type="submit" name="submit" value="Send" onClick={formSubmit} />
               </div>
             </form>
 
