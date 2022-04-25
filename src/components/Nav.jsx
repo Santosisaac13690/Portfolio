@@ -31,7 +31,7 @@ export default class Nav extends Component {
                 <nav>
                     <div className='closed-nav'>
                         <Link to='/' className='name'><h3>ISAAC SANTOS</h3></Link>
-                        <a aria-label="open-nav" onClick={Handlechange}><FontAwesomeIcon icon={faBars} /></a>
+                        <a aria-label="open-navbar" onClick={Handlechange}><FontAwesomeIcon icon={faBars} /></a>
                     </div>
 
                     {navmenu && (
@@ -50,6 +50,8 @@ export default class Nav extends Component {
                                 </ul>
                             </div>
 
+                            <hr className='nav-line'/>
+
                             <footer>
                                 <ul>
                                 <li><a href="https://www.instagram.com/santos_j_isaac/" target="_blank" rel="noreferrer" aria-label="instagram"><FontAwesomeIcon icon={faInstagramSquare} /></a></li>
@@ -62,7 +64,6 @@ export default class Nav extends Component {
 
                                 <li><a href="https://github.com/Santosisaac13690" target="_blank" rel="noreferrer" aria-label="facebook"><FontAwesomeIcon icon={faGithubSquare} /></a></li>
                                 </ul>
-
                             </footer>
                         </div>
                     )}

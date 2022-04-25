@@ -10,9 +10,7 @@ function ShowProjects(props) {
             <div className='show-project'>
               <img src={props.selected.image} alt={props.selected.imageAlt} />
               <h2>{props.selected.name}</h2>
-              <div className='background'>
-
-              </div>
+              <p className='background'>{props.selected.background}</p>
               <p>{props.selected.languages}</p>
               <p>{props.selected.contributors}</p>
               <div className='site-links'>

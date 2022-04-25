@@ -14,11 +14,13 @@ function Home() {
       <div className='home'>
         <div className='header'>
           <img src={Headshot} alt='Headshot' />
-          <h1><FontAwesomeIcon icon={faCode} className='code-icon' bounce /></h1>
-          <h2>SOFTWARE DEVELOPER</h2>
-          <hr />
+          <div className='info'>
+          <h1><FontAwesomeIcon icon={faCode} className='code-icon' flip /></h1>
 
-          <p>I'm an up-and-coming Full Stack Web Developer. Motivated and passionate web developer who's always looking to develop my skills and experience.</p>
+            <h2>SOFTWARE DEVELOPER</h2>
+            <hr />
+            <p>I'm an up-and-coming Full Stack Software Developer—a motivated and passionate technological artist who's always looking to develop my skills and experience.</p>
+          </div>
         </div>
       </div>
 

@@ -8,9 +8,9 @@
             "deployLink": "https://santosisaac13690.github.io/Freedom-Park-Website/",
             "repoLink": "https://github.com/Santosisaac13690/Freedom-Park-Website",
             "name": "Freedom Park",
-            "languages": "HTML|CSS",
+            "languages": "HTML | CSS",
             "contributors": "By Isaac Santos",
-            "background": "This was the first website I've ever created for the R2H summer boot camp. The purpose was to display proficiency in HTML & CSS. Throughout this project learned a lot about HTML, CSS & asking for help. To this day, this is one of my favorite projects because I love looking back on it & seeing how much I've improved."
+            "background": "This was the first website I've ever created, it was for the R2H summer boot camp. The purpose was to display proficiency in HTML and CSS. Throughout this project learned a lot about HTML, CSS and asking for help. To this day, this is one of my favorite projects because I love looking back on it and seeing how much I've improved."
         },
 
         {
@@ -20,9 +20,9 @@
             "deployLink": "https://santosisaac13690.github.io/Gateway-Final-Project/",
             "repoLink": "https://github.com/Santosisaac13690/Gateway-Final-Project",
             "name": "Gateway",
-            "languages": "HTML|CSS",
+            "languages": "HTML | CSS",
             "contributors": "By Isaac Santos",
-            "background": "This Honduras travel site was my project for the R2H gateway apprenticeship. The purpose of this project was to display proficiency in HTML & CSS. I felt that I was really beginning to grasp CSS & Flexbox throughout this project. I love this project because my mother is Honduran & I've always wanted to visit Honduras & by doing this project, I learned a lot about my others home country."
+            "background": "This Honduras travel site was my project for the R2H gateway apprenticeship. The purpose of this project was to display proficiency in HTML and CSS. I felt that I was really beginning to grasp CSS and Flexbox throughout this project. I love this project because my mother is Honduran and I've always wanted to visit Honduras and by doing this project, I learned a lot about my mother's home country."
         },
 
         {
@@ -32,9 +32,9 @@
             "deployLink": "https://santosisaac13690.github.io/Midterm-Portfolio/",
             "repoLink": "https://github.com/Santosisaac13690/Midterm-Portfolio",
             "name": "Midterm Portfolio",
-            "languages": "HTML|CSS",
+            "languages": "HTML | CSS",
             "contributors": "By Isaac Santos",
-            "background": ""
+            "background": "This Midterm Portfolio was my project for the Midterms in the R2H apprenticeship. The purpose of this project was to display a technical and professional development project I was proud of and an overall reflection. In this project, I tried new things like different color schemes and gradients, so I learned a lot about legibility and readability throughout this project."
         },
 
         {
@@ -44,9 +44,9 @@
             "deployLink": "https://isaac-stayquiet.herokuapp.com/",
             "repoLink": "https://github.com/Santosisaac13690/ecommerce-react",
             "name": "Ecommerce - STAY QUIET",
-            "languages": "HTML|CSS|React|MySQL|Node",
+            "languages": "HTML | CSS | React | MySQL | Node",
             "contributors": "By Isaac Santos",
-            "background": ""
+            "background": "This is the 3rd version of this Ecommerce site. Throughout the R2H apprenticeship, we worked on this project periodically and implemented newfound knowledge. This is easily my favorite project because I learned about React, databases, and backend servers. I poured my heart and soul into this project and spent hours trying to make it perfect and I am very proud of the end result."
         },
 
         {
@@ -56,9 +56,9 @@
             "deployLink": "https://samueljr3.github.io/code4Justice/",
             "repoLink": "https://github.com/samueljr3/code4Justice",
             "name": "Code 4 Justice",
-            "languages": "HTML|CSS",
-            "contributors": "Seth|Jacky|Sam|Axel|Isaac",
-            "background": ""
+            "languages": "HTML | CSS",
+            "contributors": "By Seth, Jacky, Sam, Axel & Isaac",
+            "background": "This was the first group project in the R2H apprenticeship and my favorite group project. This was my favorite group project because I got to work with awesome teammates and I made lasting relationships with my team members. Our team was assigned to create a website to spread awareness of a social cause and we chose immigration reform because we were all passionate about this cause. My contribution was the About Us page and the footer. I used flex to align our headshots, and for the footer, I used Font Awesome because of the high quality and the easy-to-use icons."
         },
 
         {
@@ -68,9 +68,9 @@
             "deployLink": "https://r2h-netflix.herokuapp.com/",
             "repoLink": "https://github.com/Santosisaac13690/netflix-redesign",
             "name": "Netflix Redesign",
-            "languages": "HTML|CSS|React|TMDB-API",
-            "contributors": "Van|Marty|Puran|Sam|Jacky|Isaac",
-            "background": ""
+            "languages": "HTML | CSS | React | TMDB API",
+            "contributors": "By Van, Marty, Puran, Sam, Jacky & Isaac",
+            "background": "This was the final group project in the R2H apprenticeship. Our team was assigned to find a popular website on the internet and redesign it to our liking. My contribution was the nav, footer, the new and popular page, movies page, and the shows page. I used flex for the nav and footer to align the content, and I used Font Awesome icons. The TMDB API was pulling movies into our pages, but it needed some styling, so I styled it to look close to Netflix's site. "
         }
     ]
 }
