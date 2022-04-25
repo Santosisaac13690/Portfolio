@@ -1,15 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useRef } from 'react';
 import Nav from './Nav';
 import Footer from './Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import { 
   faMapLocation,
   faPhone,
   faEnvelope,
 } from '@fortawesome/free-solid-svg-icons';
+import emailjs from '@emailjs/browser';
 
 function Contact() {
+  const form = useRef();
+  const [done, setDone] = useState(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_86bu60l', 'template_ujr9ru2', form.current, 'y80bLz8CHJvGr4n8s')
+      .then((result) => {
+          console.log(result.text);
+          setDone(true);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <main>
       <Nav />
@@ -17,7 +32,7 @@ function Contact() {
         <div className="contact">
           <div className="contactInfo">
             <div className="box">
-              <div className="icon"><FontAwesomeIcon icon={faMapLocation} flip /></div>
+              <div className="icon"><FontAwesomeIcon icon={faMapLocation} /></div>
               <div className="text">
                 <h3>Location</h3>
                 <p>Charlotte, NC</p>
@@ -40,57 +55,39 @@ function Contact() {
           </div>
 
           <div className="form">
-            <form className="contactForm">
+            <form ref={form} onSubmit={sendEmail}>
               <h2>Contact</h2>
     
               <div className="inputBox">
                 <label>
                 Name &#42;
-                <input type="text" name="contact" required="required"
-                  // onChange={(e) => {
-                  //   setName(e.target.value);
-                  // }}
-                />
+                <input type="text" name="Name" required="required" />
                 </label>
               </div>
     
               <div className="inputBox">
                 <label>
                 Email &#42;
-                <input type="email" name="contact" required="@" 
-                  // onChange={(e) => {
-                  //   setEmail(e.target.value);
-                  // }}
-                />
+                <input type="email" name="Email" required="@" />
                 </label>
               </div>
     
               <div className="inputBox">
                 <label>
-                Number
-                <input type="text" name="contact"
-                  // onChange={(e) => {
-                  //   setPhoneNumber(e.target.value);
-                  // }}
-                />
+                Phone Number
+                <input type="text" name="Number"/>
                 </label>
               </div>
     
               <div className="inputBox">
                 <label>
                 Message &#42;
-                <textarea name="contact" required="required" 
-                  // onChange={(e) => {
-                  //   setMessage(e.target.value);
-                  // }}
-                ></textarea>
+                <textarea name="Message" required="required" ></textarea>
                 </label>
               </div>
     
               <div className="inputBox">
-                <input type="submit" name="submit" value="Send" 
-                  // onClick={submitMessage} 
-                />
+                <input type="submit" name="submit" value="Send" />
               </div>
             </form>
 
