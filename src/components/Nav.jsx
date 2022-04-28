@@ -38,7 +38,7 @@ export default class Nav extends Component {
                         <div className='nav-open'>
                             <div className='nav-menu'>
                                 <div className='closed-nav'>
-                                    <h3>ISAAC SANTOS</h3>
+                                    <Link to='/' className='name'><h3>ISAAC SANTOS</h3></Link>
                                     <a aria-label="open-nav" onClick={Handlechange}><FontAwesomeIcon icon={faXmark} /></a>
                                 </div>
 
