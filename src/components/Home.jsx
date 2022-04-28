@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import Nav from './Nav';
 import Footer from './Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -15,8 +16,8 @@ function Home() {
         <div className='header'>
           <img src={Headshot} alt='Headshot' />
           <div className='info'>
-          <h1><FontAwesomeIcon icon={faCode} className='code-icon' flip /></h1>
-
+            <h1><FontAwesomeIcon icon={faCode} className='code-icon' flip /></h1>
+            <Link to='/contact' className='contact-link'>Hi, Let's Talk!</Link>
             <h2>SOFTWARE DEVELOPER</h2>
             <hr />
             <p>I'm an up-and-coming Full Stack Software Developer—a motivated and passionate technological artist who's always looking to develop my skills and experience.</p>
