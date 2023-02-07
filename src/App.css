@@ -16,13 +16,9 @@ body {
 }
 
 .hover:hover {
-  opacity: 80%;
-  font-size: 30px;
-  color: olivedrab;
-  transition: all 0.7s ease-in-out;;
-  font-weight: 900;
-  letter-spacing: 4px;
-
+  opacity: 40%;
+  color: white;
+  transition: 1s;
 }
 
 /*----- FOOTER STYLES -----*/
@@ -102,7 +98,7 @@ footer ul li a:hover {
 
 .nav-open {
   background-color: rgba(0, 0, 0, 0.92);
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   z-index: 1000;
   top: 0;
@@ -135,7 +131,7 @@ footer ul li a:hover {
   color: #f2f2f2;
   text-decoration: none;
   padding: 10px;
-  font-size: 25px;
+  font-size: 30px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8), 0 0 25px rgba(0, 0, 0, 0.8), 0 0 5px rgba(0, 0, 0, 0.8);
 }
 
@@ -150,37 +146,35 @@ footer ul li a:hover {
 
 .header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .header img {
-  width: 20vw;
-  height: auto;
-  border-radius: 20px;
-  margin-bottom: 40px;
+  width: 550px;
+  height: 550px;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), 0 0 25px rgba(0, 0, 0, 0.5), 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .home h1 {
   color: #473c38;
   text-align: center;
-  font-size: 7vw;
+  font-size: 4vw;
 }
 
 .home h2 {
   color: #473c38;
   text-align: center;
-  font-size: 3vw;
+  font-size: 40px;
   padding: 10px;
   letter-spacing: 4px;
 }
 
 .home hr {
-  width: 40vw;
+  width: 20vw;
   color: #473c38;
   height: 1px;
   margin-left: auto;
@@ -190,27 +184,31 @@ footer ul li a:hover {
 .home p {
   color: #473c38;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   padding: 20px;
 }
 
 .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #f2f2f2;
-  width: 45vw;
-  border-radius: 10px;
+  width: 550px;
+  height: 550px;
 }
 
 .contact-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 5px 15vw;
-  padding: 15px 0px;
+  margin: 15px 0px;
+  padding: 15px;
   background-color: #473c38;
   text-decoration: none;
   color: whitesmoke;
-  border-radius: 5px;
   font-weight: 1000;
+  border-radius: 10px;
 }
 
 .contact-link:hover {
@@ -226,7 +224,7 @@ footer ul li a:hover {
   grid-template-rows: 100px 100px 100px 100px 100px 100px;
   align-items: center;
   justify-content: center;
-  margin:  10px 100px;
+  margin:  100px 50px;
 }
 
 .contactInfo {
@@ -241,7 +239,6 @@ footer ul li a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 10px 0px 0px 10px;
 }
 
 .form {
@@ -300,7 +297,6 @@ form {
   height: 100%;
   padding: 50px;
   background: #fff;
-  border-radius: 0px 10px 10px 0px;
 }
 
 form h2 {
@@ -332,7 +328,8 @@ form .inputBox input, form .inputBox textarea {
 
 form .inputBox input[type="submit"] {
   width: 100px;
-  background: olivedrab;
+  background: #473c38;
+  border-radius: 10px;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -368,7 +365,6 @@ label {
 .project img{
   width: 30vw;
   height: 16.5vw;
-  border-radius: 10px 10px 0px 0px;
   filter: grayscale(90%);
 }
 
@@ -401,7 +397,6 @@ label {
   margin: 20px;
   background-color: #f2f2f2;
   width: 30vw;
-  border-radius: 10px;
 }
 
 .project:hover {
@@ -417,7 +412,7 @@ label {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 10px;
+  margin: 15px;
   height: auto;
 }
 
@@ -430,12 +425,10 @@ label {
   color: #473c38;
   margin: 10px;
   width: 80vw;
-  border-radius: 10px;
 }
 
 .show-project img{
   width: 80vw;
-  border-radius: 10px 10px 0px 0px;
 }
 
 .show-project p {
@@ -450,14 +443,15 @@ label {
 
 .show-project a {
   color: #fff;
-  background-color: olivedrab;
+  background-color: #473c38;
   width: 110px;
   color: #fff;
   border: none;
   cursor: pointer;
-  padding: 8px;
+  padding: 10px;
   font-size: 18px;
-  margin: 10px;
+  margin: 25px 10px;
+  border-radius: 10px;
   text-decoration: none;
   text-align: center;
 }
@@ -514,10 +508,6 @@ label {
   .contactInfo {
     display: none;
   }
-
-  form {
-    border-radius: 10px;
-  }  
 }
 
 @media only screen and (max-width: 600px) {
@@ -550,10 +540,28 @@ label {
 
 @media only screen and (max-width: 700px) {
   .header img {
-    width: 40vw;
+    width: 300px;
+    height: 300px;
   }
 
   .info {
-    width: 80vw;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 1166px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .home h2 {
+    font-size: 20px;
+  }
+
+  .home h1 {
+    font-size: 20px;
   }
 }

@@ -43,8 +43,8 @@
             "imageAlt": "Ecommerce - STAY QUIET",
             "deployLink": "https://isaac-stayquiet.herokuapp.com/",
             "repoLink": "https://github.com/Santosisaac13690/ecommerce-react",
-            "name": "Ecommerce - STAY QUIET",
-            "languages": "HTML | CSS | React | MySQL | Node",
+            "name": "Ecommerce Site",
+            "languages": "React | MySQL | Node",
             "contributors": "By Isaac Santos",
             "background": "This is the 3rd version of this Ecommerce site. Throughout the R2H apprenticeship, we worked on this project periodically and implemented newfound knowledge. This is easily my favorite project because I learned about React, databases, and backend servers. I poured my heart and soul into this project and spent hours trying to make it perfect and I am very proud of the end result."
         },
@@ -58,7 +58,7 @@
             "name": "Code 4 Justice",
             "languages": "HTML | CSS",
             "contributors": "By Seth, Jacky, Sam, Axel & Isaac",
-            "background": "This was the first group project in the R2H apprenticeship and my favorite group project. This was my favorite group project because I got to work with awesome teammates and I made lasting relationships with my team members. Our team was assigned to create a website to spread awareness of a social cause and we chose immigration reform because we were all passionate about this cause. My contribution was the About Us page and the footer. I used flex to align our headshots, and for the footer, I used Font Awesome because of the high quality and the easy-to-use icons."
+            "background": "This was the first group project in the R2H apprenticeship and my favorite group project. This was my favorite group project because I got to work with awesome teammates and I made lasting relationships with my team members. Our team was assigned to create a website to spread awareness of a social cause and we chose immigration reform because we were all passionate about this cause. My contribution was the About Us page and the footer."
         },
 
         {
@@ -68,9 +68,9 @@
             "deployLink": "https://r2h-netflix.herokuapp.com/",
             "repoLink": "https://github.com/Santosisaac13690/netflix-redesign",
             "name": "Netflix Redesign",
-            "languages": "HTML | CSS | React | TMDB API",
+            "languages": "React | Node | TMDB API",
             "contributors": "By Van, Marty, Puran, Sam, Jacky & Isaac",
-            "background": "This was the final group project in the R2H apprenticeship. Our team was assigned to find a popular website on the internet and redesign it to our liking. My contribution was the nav, footer, the new and popular page, movies page, and the shows page. I used flex for the nav and footer to align the content, and I used Font Awesome icons. The TMDB API was pulling movies into our pages, but it needed some styling, so I styled it to look close to Netflix's site. "
+            "background": "This was the final group project in the R2H apprenticeship. Our team was assigned to find a popular website on the internet and redesign. My contribution was the nav, footer, the new and popular page, movies page, and the shows page. The TMDB API was pulling movies into our pages, but it needed some styling, so I styled it to look to like Netflix's website. "
         }
     ]
 }

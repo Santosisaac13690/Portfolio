@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
-import Resume from '../assets/Isaac Santos Resume.pdf'
+import Resume from '../assets/Isaac Santos Updated Resume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
     faBars,
@@ -39,7 +39,7 @@ export default class Nav extends Component {
                             <div className='nav-menu'>
                                 <div className='closed-nav'>
                                     <Link to='/' className='name'><h3>ISAAC SANTOS</h3></Link>
-                                    <a aria-label="open-nav" onClick={Handlechange}><FontAwesomeIcon icon={faXmark} /></a>
+                                    <a aria-label="close-navbar" onClick={Handlechange}><FontAwesomeIcon icon={faXmark} /></a>
                                 </div>
 
                                 <ul>

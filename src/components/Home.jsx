@@ -17,10 +17,10 @@ function Home() {
           <img src={Headshot} alt='Headshot' />
           <div className='info'>
             <h1><FontAwesomeIcon icon={faCode} className='code-icon' flip /></h1>
-            <Link to='/contact' className='contact-link'>Hi, Let's Talk!</Link>
-            <h2>SOFTWARE DEVELOPER</h2>
+            <h2>WEB DEVELOPER</h2>
             <hr />
-            <p>I'm an up-and-coming Full Stack Software Developer—a motivated and passionate technological artist who's always looking to develop my skills and experience.</p>
+            <p>I'm a Data Engineer & a Web Developer. A motivated and passionate technological artist who's always looking for a challenge to develop my skills and experience.</p>
+            <Link to='/contact' className='contact-link'>Let's Talk!</Link>
           </div>
         </div>
       </div>

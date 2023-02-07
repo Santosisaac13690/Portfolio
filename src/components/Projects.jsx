@@ -16,7 +16,6 @@ function Projects(props) {
                             <img src={card.image} alt={card.imageAlt} className='image' />
                             <h2>{card.name}</h2>
                             <p>{card.languages}</p>
-                            <p>{card.contributors}</p>
                         </div>
                       </Link>
                     )
